@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="how much did you enjoy the service? (0-100)"
+        android:textSize="15dp"
+        android:layout_marginBottom="120dp"/>
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="enter tip percentage"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sumbmit tip"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
